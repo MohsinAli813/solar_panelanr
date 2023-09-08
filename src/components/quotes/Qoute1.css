@@ -1,0 +1,64 @@
+.qoute1-main-div{
+    height: auto;
+    min-height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qoute1-body h1{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.qoute1-body{
+    height: auto;
+    min-height: 200px;
+    width: 100%;
+    max-width: 500px;
+}
+.qoute1-body input{
+    width: 100%;
+    min-height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.qoute1-btn{
+    text-align: center;
+    margin-top: 30px;
+}
+.qoute1-btn button{
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+/* .qoute1{
+    text-align: center;
+    margin-top: 250px;
+
+}
+.qoute1 h3{
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 70px;
+}
+.row1{
+    text-align: center;
+    padding-bottom: 200px;
+    
+}
+.row1 input{
+    box-sizing: content-box;
+    width: 400px;
+    padding: 4px 7px 4px 7px;
+}
+.button{
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    box-sizing: content-box;
+    width: 150px;
+} */

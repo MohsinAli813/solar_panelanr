@@ -1,0 +1,32 @@
+.qoute2-main{
+    height: 100%;
+    min-height: 90vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.qoute2-h1 h1{
+    margin-top: 5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+} 
+.qoute2-imgset{
+    text-align: center;
+}
+.qoute2-imgset img{
+    width: 100%;
+    max-width: 1100px;
+}
+.qoute2-btn{
+    text-align: center;
+    margin-top: 40px;
+}
+.qoute2-btn button{
+    padding: 10px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 3rem;
+}

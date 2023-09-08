@@ -1,0 +1,92 @@
+.about_section_one{
+    height: auto;
+    min-height: 90vh;
+    width: 100%;
+    text-align: center;
+    background-color: #151515;
+    color: white;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.About-p{
+    padding: 30px;
+    max-width: 800px;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}
+.about_section_two{
+    height: auto;
+    min-height: 90vh;
+    width: 100%;
+    background-color: #1c1c1c;
+    color: white;
+    padding: 5rem 3rem;
+}
+.about_sec2_text_body{
+    height: auto;
+    max-width: 330px;
+}
+.about_sec2_cards_main{
+    width: 100%;
+}
+.about_sec2_card_body{
+    margin-top: 30px;
+    height: auto;
+    min-height: 200px;
+    width: 100%;
+    border-right: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.about_section_three{
+    height: auto;
+    min-height: 300px;
+    width: 100%;
+    background-color: #fff;
+    color: #151515;
+}
+.about_sec_three_text{
+    max-width: 450px;
+    text-align: center;
+    line-height: 20px;
+    margin: auto;
+    padding: 4rem;
+}
+.about-sec-three-text-p{
+    font-size: 10px;
+}
+.about_button{
+    width: 200px;
+    margin-top: 5px;
+    padding: 5px 20px;
+    border-radius: 5px;
+
+}
+/* .About{
+    width: 882px;
+    height: 90px;
+    margin-left: 516px;
+
+   
+}
+.AboutH h4{
+    font-weight: 600;
+    font-size: 42px;
+}
+.AboutP{
+    width: 1032px;
+    height: 168px;
+    margin-left: 350px;
+    line-height: 28px;
+    text-align: center;
+
+}
+.about{
+    padding-top: 300px;
+    background-color: #1c1c1c;
+} */

@@ -1,0 +1,55 @@
+.title{
+    text-align: center;
+}
+.qoute5_main_div{
+    height: auto;
+    min-height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qoute5_card_body_div{
+    height: auto;
+    min-height: 200px;
+    width: 100%;
+    max-width: 350px;
+    /* background-color: red; */
+}
+.qoute5_inner_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding-top: 8px;
+}
+.qoute5_inner_text p{
+    padding-top: 4px;
+    margin-bottom: 0;
+
+}
+.qoute5_btn{
+    text-align: center;
+    margin-top: 40px;
+}
+.qoute5_btn button{
+    border: none;
+    padding: 7px;
+    width: 220px;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: black;
+    color: #fff;
+}
+.cards_main_div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 100%;
+}
+.three_cards_body_div{
+    width: 300px;
+    background-color: red;
+    height: auto;
+    min-height: 300px;
+}
