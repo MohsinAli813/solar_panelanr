@@ -4,7 +4,7 @@ import image9 from '../../image/image9.png'
 
 function Qoute2() {
   const handleButtonClick = () => {
-    window.location.href = '/Qoute3'; // Navigate to the new page
+    window.location.href = '/Qoute3';
   };
   return (
     <div className='container qoute2-main'>

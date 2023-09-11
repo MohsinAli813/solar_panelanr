@@ -20,16 +20,6 @@ function Qoute5() {
           </div>
         </div>
       </div>
-      {/* <div className="qoute5_main_div">
-        <div>
-          <h1 className="title">sdfghjk</h1>
-          <div className="cards_main_div">
-            <div className="three_cards_body_div"></div>
-            <div className="three_cards_body_div"></div>
-            <div className="three_cards_body_div"></div>
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 }

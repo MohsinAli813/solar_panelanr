@@ -6,7 +6,7 @@ import image8 from '../../image/image8.png'
 
 function Gallery() {
     const handleButtonClick = () => {
-        window.location.href = '/Qoute1'; // Navigate to the new page
+        window.location.href = '/Qoute1';
       };
   return (
     <div className='gallery-main-div'>

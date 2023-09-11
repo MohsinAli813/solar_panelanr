@@ -4,7 +4,7 @@ import Vector from '../../image/Vector.png';
 
 function Qoute4() {
     const handleButtonClick = () => {
-        window.location.href = '/Qoute5'; // Navigate to the new page
+        window.location.href = '/Qoute5';
       };
   return (
 

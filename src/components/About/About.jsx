@@ -3,7 +3,7 @@ import "./About.css";
 
 function About() {
   const handleButtonClick = () => {
-    window.location.href = '/Qoute1'; // Navigate to the new page
+    window.location.href = '/Qoute1'; 
   };
   return (
     <div>

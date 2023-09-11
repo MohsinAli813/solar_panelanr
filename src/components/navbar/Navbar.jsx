@@ -36,40 +36,4 @@ function Navbar() {
             </nav>
   )}
   export default Navbar
-    // <div>
-
-    //     <nav className="navbar navbar-expand-lg navbar-dark bg-dark main-nav" >
-    //     <div className="container bgcolr d-flex justify-content-between">
-    //       <a className="navbar-brand brand-name fs-1 fw-bold" href="#">Tesla Landscape</a>
-    //       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-    //         <span class="navbar-toggler-icon"></span>
-    //       </button>
-    //       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-    //           <ul className="navbar-nav  m-auto fw-bold">
-    //           <li className="nav-item ">
-    //             <a className="nav-link" href="/Contact" exact>Contact</a>
-    //           </li>
-    //           <li className="nav-item">
-    //             <a className="nav-link" href="/About">About</a>
-    //             {/* <NavLink to='/about'>About</NavLink> */}
-    //           </li>
-    //           <li className="nav-item">
-    //             <a className="nav-link" href="/Gallery">Gallery</a>
-    //           </li>
-    //           <button type="button" class="btn  btn-light "
-    //           onClick={handleButtonClick}
-    //          >Request a Quote</button>
-    //         </ul>
-            
-    //       </div>
-    //     </div>
-        
-    //   </nav>
-    //   </div>
-//   )
-// }
-
-       
-   
-
-// export default Navbar
+    

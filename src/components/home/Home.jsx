@@ -4,11 +4,10 @@ import solar from "../../image/solar.png";
 import solar1 from "../../image/solar1.png";
 import solar2 from "../../image/solar2.png";
 import plates from "../../image/plates.png";
-// import Section from "../../image/Section.png";
 
 export default function Home() {
   const handleButtonClick = () => {
-    window.location.href = '/Qoute1'; // Navigate to the new page
+    window.location.href = '/Qoute1'; 
   };
   return (
     <div>
@@ -119,11 +118,9 @@ export default function Home() {
                 </div>
                 <div className="col-lg-6 col-sm-12">
                   <div className="sec-three-imgs">
-                    <div className="home-sec-three-body-bg-img">
-                      <img src={solar1} alt="" />
-                    </div>
-                    <div className="home-sec-three-body-img">
-                      <img src={solar2} alt="" />
+                    <div className="home_sec3_two_imgs">
+                      <img src={solar1} alt="" className="hsec3_img1" />
+                      <img src={solar2} alt="" className="hsec3_img2" />
                     </div>
                   </div>
                 </div>
@@ -197,7 +194,6 @@ export default function Home() {
       </section>
       <section className="home_section_five">
         <div className="container-fluid">
-          {/* <button >Play</button> */}
         </div>
       </section>
       <section className="about_section_three">
@@ -213,153 +209,5 @@ export default function Home() {
         </div>
       </section>
     </div>
-    //     <div className="maincolr">
-    //         <div className="heroMain">
-    //         <div className='hero'>
-    //             <div >
-
-    //                 <h1>Powering Your Home with <br />Solar Brilliance</h1></div>
-
-    //         <div><p>Adipiscing elit, sed do eiazusmod tempor incididunt ut labore et dolore
-    //             magna aliqua. Ut <br />enim ad minim veniam, quis nostrud. Dicta sunt explicabo.</p></div>
-    //           <div className='solarpic'>
-    //             <img src={solar} alt="solar" />
-    //             </div>
-    //     </div>
-    //     </div>
-    //     <div className='offerbg'>
-    //         <div className='container container-fluid containerr'>
-    //             <div className='row'>
-
-    //             <div className='instalation col-lg-6 col-12'>
-    //             <p>WHAT WE OFFER</p>
-    //             <h1>Our Installation <br />Services</h1>
-    //                 </div>
-    //             <div className='col-lg-6 col-12 paragraph'>
-    //             <p>
-    //                 Adipiscing elit, sed do euismod tempor incidunt ut labore et dolore
-    //                     magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.<br /><br />
-    //                     Adipiscing elit, sed do euismod tempor incidunt ut labore et dolore
-    //                     magna aliqua. Ut enim ad minim veniam.</p>
-    //             </div>
-
-    //             </div>
-
-    //         </div>
-    //         <div className='iconclass container-fluid'>
-    //             <div className='iconc1 col-lg-3'><h4>Pavers,
-    // Turf</h4></div>
-    //             <div className='iconc2 col-lg-3'><h4>Retaining Walls
-    // and Irrigation</h4></div>
-    //             <div className='iconc3 col-lg-3 '><h4>Outdoor Tiles
-    // and French Drain</h4></div>
-    //             <div className='iconc4 col-lg-3'><h4>Pergola,
-    // BBQ and Sunroom</h4></div>
-    //         </div>
-    //     </div>
-
-    //     <div className='container bgwhite'>
-    //         <div className='row'>
-    //         <div className='col-lg-6'>
-    //             <div className='saveelc'>
-    //                 <h5>Save Electricity</h5>
-    //                 <p>Adipiscing elait, sed do euismod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-    //                 </div>
-    //             <div className='saveelc1'>
-    //                 <h5>Robust and Long Lasting Design</h5>
-    //                 <p>Adipiscing elait, sed do euismod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-    //             </div>
-    //             <div className='saveelc1'>
-    //                 <h5>Refined and immaculate appearance.</h5>
-    //                 <p>Adipiscing elait, sed do euismod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-    //             </div>
-    //             <div className='saveelc1'>
-    //                 <h5>Save Electricity</h5>
-    //                 <p>Adipiscing elait, sed do euismod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-    //             </div>
-
-    //         </div>
-    //         <div className='solar1pic col-lg-6 overlay'>
-    //             {/* <img src={solar1} alt="Solar company img" /> */}
-
-    //             <img src={solar2} alt="solar company person"/>
-    //             </div>
-
-    //         </div>
-
-    //     </div>
-
-    //     <div className='container quiltycontainer'>
-    //         <div className='row'>
-    //             <div className='col-lg-5 durability'>
-    //                 <div className='impact'>
-    //                 <h3>Maximum Durability</h3><br />
-    //                 <p>Adipiscing elit, sed do euismod tempor incidunt ut labore et dolore
-    //                     magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-    //                     ullamco.<br /> <br />
-    //                     Adipiscing elit, sed do euismod tempor incidunt ut labore et dolore
-    //                     magna aliqua. Ut enim ad minim veniam.</p>
-    //                 </div>
-    //             </div>
-    //             <div className='col-lg-7 platesss'>
-    //                 <img src={plates} alt="Solar plates" />
-    //             </div>
-    //         </div>
-    //     </div>
-
-    //     <div className='container quiltycontainer'>
-    //         <div className='row'>
-    //         <div className='col-lg-7 platess1'>
-    //                 <img src={plates} alt="Solar plates" />
-    //             </div>
-    //             <div className='col-lg-5 durability'>
-    //                 <div className='impact'>
-    //                 <h3>Less Impact</h3><br />
-    //                 <p>Adipiscing elit, sed do euismod tempor incidunt ut labore et dolore
-    //                     magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-    //                     ullamco.<br /> <br />
-    //                     Adipiscing elit, sed do euismod tempor incidunt ut labore et dolore
-    //                     magna aliqua. Ut enim ad minim veniam.</p>
-    //                 </div>
-
-    //             </div>
-    //         </div>
-    //     </div>
-
-    //     <div className='container quiltycontainer'>
-    //         <div className='row'>
-    //             <div className='col-lg-5 durability'>
-    //                 <h3>No Leaks</h3><br />
-    //                 <p>Adipiscing elit, sed do euismod tempor incidunt ut labore et dolore
-    //                     magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-    //                     ullamco.<br /> <br />
-    //                     Adipiscing elit, sed do euismod tempor incidunt ut labore et dolore
-    //                     magna aliqua. Ut enim ad minim veniam.</p>
-    //             </div>
-    //             <div className='col-lg-7 platesss'>
-    //                 <img src={plates} alt="Solar plates" />
-    //             </div>
-    //         </div>
-    //     </div>
-
-    //     <div className='bgwhite'>
-    //         <div className='exp'>
-    //         <div className='container'>
-    //         <div className='row'>
-    //             <div className='col-lg-12  expertt'>
-    //             <p>CONTACT OUR EXPERT</p><br />
-    //         <h1>Get Your Instant<br />Free Quote Now</h1>
-    //       <p>Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-    //             magna <br />aliqua. Ut enim ad minim veniam, quis nostrud exercitation<br/>
-    //             ullamco .</p>
-    //             <button>Request Qoute</button>
-    //             </div>
-    //         </div>
-    //     </div>
-    //         </div>
-
-    //     </div>
-
-    //     </div>
   );
 }

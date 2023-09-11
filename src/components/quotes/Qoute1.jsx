@@ -18,20 +18,6 @@ function Qoute1() {
         </div>
 
       </div>
-        {/* <div className='container'>
-            <div className='row row1'>
-            <div className='qoute1'>
-                <h3>House Details</h3>
-            </div>
-        <div >
-        <input type="text" id="location" placeholder="Enter Your location" />
-        </div>
-        <div>
-            <button className='btn btn-dark text-white button'>Next</button>
-        </div>
-
-        </div>
-        </div> */}
     </div>
   )
 }
